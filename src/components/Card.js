@@ -6,8 +6,9 @@ export class Card extends Component {
     render() {
         return (
             <div style={cardStyles} className="container">
-                <Title product={this.props.product}/>
-                <Body blurb={this.props.blurb}/>
+                <div className="">
+                <Title product={this.props.product}/></div>
+                <div className=""><Body blurb={this.props.blurb}/></div>
             </div>
         )
     }

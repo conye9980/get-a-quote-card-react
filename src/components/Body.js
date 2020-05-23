@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Button from './Button'
 
-
 export class Body extends Component {
     constructor(props){
         super(props);
@@ -17,7 +16,8 @@ export class Body extends Component {
             <div>
             <div>
                 <p style={bodyStyles}>{this.props.blurb}</p>
-                <Button />
+              <Button />
+
             </div>
             </div>
             
@@ -28,6 +28,7 @@ let bodyStyles = {
     margin: '10px',
     display: 'flex',
     minHeight: '100px',
+    position: 'relative'
 
 }
 export default Body
