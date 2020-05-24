@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "OnePlan Protection",
+            "text": "With OnePlan Protection, we can help you protect your family's income with life insurance, but also if you can't work because of illness or injury."
+        },
+        {
+            "id": 2,
+            "name": "Income Protection",
+            "text": "With Income Protection you will receive a replacement income if you cannot work due to illness or injury after a certain period of time."
+        },
+        {
+            "id": 3,
+            "name": "Mortgage Protections",
+            "text": "With Mortgage Protection you can be assured your mortgage will be protected and paid off in cases of death or illness."
+        },
+        {
+            "id": 4,
+            "name": "Whole of Life Insurance",
+            "text": "With Mortgage Protection you can be assured your mortgage will be protected and paid off in cases of death or illness."
+        }
+    ]
+}

@@ -11,10 +11,7 @@ import NavBar from './components/NavBar'
 export class App extends Component {
   constructor(props){
     super(props)
-
-    this.state = {
-      product: 'One Plan Protection'
-    }
+    
   };
   
   render() {
@@ -25,10 +22,8 @@ export class App extends Component {
         <NavBar />
         <PageTitle />
         <Subtitle />
-        <Card product={this.state.product} blurb="With OnePlan Protection, we can help you protect your family's income with life insurance, but also if you can't work because of illness or injury."/>
-        <Card product="Income Protection" blurb="With Income Protection you will receive a replacement income if you cannot work due to illness or injury after a certain period of time."/>
-        <Card product="Mortgage Protections" blurb="With Mortgage Protection you can be assured your mortgage will be protected and paid off in cases of death or illness."/>
-        <Card product="Whole of Life Insurance" blurb="With Mortgage Protection you can be assured your mortgage will be protected and paid off in cases of death or illness."/>
+        <Card />
+        
       </div>
     )
   }
