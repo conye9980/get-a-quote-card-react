@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class TopBar extends Component {
     render() {
         return (
-            <div style={topBarStyles}>
+            <div class="full-width" style={topBarStyles}>
                 
             </div>
         )
